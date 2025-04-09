@@ -24,3 +24,7 @@ variable "dev_key" {
     #default = "anoop-lab-training-us-east1"
   
 }
+variable "tag_name" {
+    type = string
+  
+}

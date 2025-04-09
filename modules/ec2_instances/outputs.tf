@@ -1,9 +1,8 @@
-output "all_info" {
-    value=aws_instance.example_east.public_ip
+output "pub_ip" {
+    value = aws_instance.aws_e.public_ip
   
-      
 }
-output "private_ip" {
-    value = aws_instance.example_east.private_ip
+output "priv_ip" {
+    value = aws_instance.aws_e.private_ip
   
 }
